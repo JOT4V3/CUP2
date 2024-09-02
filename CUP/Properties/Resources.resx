@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Capitao_Barba_Salgada_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Capitao_Barba_Salgada_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOLA (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOLA (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODISCO4 (500 x 500 px)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODISCO4 (500 x 500 px).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tinteiro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tinteiro1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ducinelia1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ducinelia1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Devil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Devil.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CPScane2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CPScane2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="High_Sea_Hi_Jinx__Track_42__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\High Sea Hi Jinx (Track 42) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DrScane3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DrScane3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aviary_Action__Track_19__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aviary Action (Track 19) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FLORA (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLORA (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ILHATINTEIRO2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ILHATINTEIRO2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1171764485_preview_1151751152_preview_20170929185448_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1171764485_preview_1151751152_preview_20170929185448_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OCASINO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OCASINO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOLA (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOLA (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sapaos (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sapaos (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KD_Scane31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KD_Scane31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\W1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrScane1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DrScane1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Sacene2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Sacene2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gaviao (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gaviao (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExScane1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExScane1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODISCO4 (500 x 500 px) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODISCO4 (500 x 500 px) (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODISCO2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODISCO2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENI2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GENI2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODISCO4 (500 x 500 px)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODISCO4 (500 x 500 px).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoSomi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSomi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODISCO4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODISCO4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LScane2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LScane2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sapaos (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sapaos (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExScane3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExScane3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gaviao (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gaviao (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2ilha (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2ilha (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_Audio__CupheadIntroSongStudio__mp3cut_net_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Audio)_CupheadIntroSongStudio (mp3cut.net).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Clip_Joint_Calamity__Track_15__Theme___Cuphead__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clip Joint Calamity (Track 15) Theme - Cuphead (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="C_Aladim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Aladim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WP_Capitao_Barba_Salgada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WP_Capitao_Barba_Salgada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LUA(120 x 120 px)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LUA(120 x 120 px).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INTRO (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\INTRO (3).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LUA(120 x 120 px) (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LUA(120 x 120 px) (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="All_Bets_Are_Off__Track_46__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\All Bets Are Off (Track 46) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pyramid_Peril__Track_26__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pyramid Peril (Track 26) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Titeiro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Titeiro2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AScane3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AScane3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLORA (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLORA (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WP_Dr_Kalo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WP_Dr_Kalo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Buarque" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Buarque1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paula_Prota_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paula_Prota_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inkwell_Isle_One__Track_6__Theme___Cuphead__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inkwell Isle One (Track 6) Theme - Cuphead (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KD_Scane21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KD_Scane21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Design sem nome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Design sem nome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LUA(120 x 120 px) (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LUA(120 x 120 px) (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KIng_Dice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KIng_Dice1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Sacene1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Sacene1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ILHATINTEIRO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ILHATINTEIRO1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elder_Kettle__Track_5__Theme___Cuphead__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elder Kettle (Track 5) Theme - Cuphead (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2ilha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2ilha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ducinelia3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ducinelia3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENI11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GENI11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CEBOULA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CEBOULA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1367767" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1367767.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Devil2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The_Devil2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sapaos (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sapaos (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExScane2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExScane2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dragao3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragao3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Batato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Batato1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WP_Demon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WP_Demon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Junkyard_Jive__Track_40__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Junkyard Jive (Track 40) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Aladim2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aladim2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KD_Scane2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KD_Scane2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WP_Paula_Prota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WP_Paula_Prota.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LUA(120 x 120 px) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LUA(120 x 120 px) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2ilha (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2ilha (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WP_Dona_Lara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WP_Dona_Lara.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Florzinha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Florzinha2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuphead_inkwell_isle_stage_2_by_olivasmark_dfkiq7j-fullview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuphead_inkwell_isle_stage_2_by_olivasmark_dfkiq7j-fullview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OCASSINO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OCASSINO1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Tiao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Tiao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shootin_n__Lootin__Track_36__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shootin n' Lootin (Track 36) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Phantom_Express_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Phantom_Express_ico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IS3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IS3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOLA (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOLA (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODISCO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODISCO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ILHAT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ILHAT1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Devil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The_Devil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Sopapos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Sopapos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODISCO4 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODISCO4 (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sorisus3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorisus3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LScane3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LScane3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dona_Lara_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dona_Lara_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dragao2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragao2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botanic_Panic__Track_7__Theme___Cuphead__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botanic Panic (Track 7) Theme - Cuphead (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Abélia_Reale_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Abélia_Reale_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inkwell_Isle_Three__Track_33__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inkwell Isle Three (Track 33) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="The_Devil1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The_Devil1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2ilha (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2ilha (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_King_s_Court__Track_48__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The King's Court (Track 48) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WP_King_Dice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WP_King_Dice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonScane1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DemonScane1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carregamento (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carregamento (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aladim3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aladim3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KD_Scane3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KD_Scane3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Florzinha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Florzinha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Bola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Bola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LScane1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LScane1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inkwell_Isle_Two__Track_17__Theme___Cuphead__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inkwell Isle Two (Track 17) Theme - Cuphead (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Railroad_Wrath__Track_43__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Railroad Wrath (Track 43) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sugerland_Shimmy__Track_18__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sugerland Shimmy (Track 18) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DemonScane3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DemonScane3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tutorial__Track_4__Theme___Cuphead__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tutorial (Track 4) Theme - Cuphead (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Intro21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intro2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IcoSom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Intro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intro1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoMuti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoMuti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KD_Scane1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KD_Scane1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IS2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IS2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LUA(120 x 120 px) (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LUA(120 x 120 px) (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-sair-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-sair-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ILHAT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ILHAT21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AScane2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AScane2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Dragao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Dragao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sorisus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorisus1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2ilha (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2ilha (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sorisus2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorisus2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WP_Abélia_Reale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WP_Abélia_Reale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dramatic_Fanatic__Track_37__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dramatic Fanatic (Track 37) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CENOURA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CENOURA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="limpar-limpo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\limpar-limpo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Floral_Fury__Track_13__Theme___Cuphead__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Floral Fury (Track 13) Theme - Cuphead (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Honeycomb_Herald__Track_34__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Honeycomb Herald (Track 34) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Aladim1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aladim1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Palhaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Palhaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dragao1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragao1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WP_Phantom_Express" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WP_Phantom_Express.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WD1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WD1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KIng_Dice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KIng_Dice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IS1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonScane2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DemonScane2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrScane2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DrScane2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ruse_of_an_Ooze__Track_12__Theme___Cuphead__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ruse of an Ooze (Track 12) Theme - Cuphead (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Intro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intro2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Ducinélia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Ducinélia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ILHATINTEIRO3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ILHATINTEIRO3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CPScane1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CPScane1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENI1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GENI1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fiery_Frolic__Track_22__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fiery Frolic (Track 22) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BATATO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BATATO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ducinelia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ducinelia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CPScane3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CPScane3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ILHAT3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ILHAT31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inkwell_Hell_Piano__Track_49__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inkwell Hell Piano (Track 49) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AScane1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AScane1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gaviao (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gaviao (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Intro11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intro1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoMute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoMute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Sacene3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Sacene3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENI3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GENI3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Porkrind_s_Shop__Track_35__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Porkrind's Shop (Track 35) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IcoSom1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSom1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Threatenin__Zeppelin__Track_10__Theme___Cuphead__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Threatenin' Zeppelin (Track 10) Theme - Cuphead (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FLORA (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLORA (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dr_Kalo_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dr_Kalo_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carnival_Kerfuffle__Track_21__Theme___Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnival Kerfuffle (Track 21) Theme - Cuphead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WP8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WP8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
